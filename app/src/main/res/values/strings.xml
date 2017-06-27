@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ConstraintLayoutCodelab</string>
     <string name="dummy">Dummy</string>
+    <string name="singapore">Singapore</string>
 </resources>
