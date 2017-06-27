@@ -6,13 +6,22 @@
     android:layout_height="match_parent"
     tools:context="com.example.samagra.constraintlayoutcodelab.MainActivity">
 
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="284dp"
+        android:layout_height="162dp"
+        android:contentDescription="@string/dummy"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/singapore"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="142dp" />
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        android:text="TextView"
+        tools:layout_editor_absoluteY="392dp"
+        tools:layout_editor_absoluteX="67dp" />
 </android.support.constraint.ConstraintLayout>
