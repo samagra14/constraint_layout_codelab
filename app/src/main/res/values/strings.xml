@@ -2,4 +2,6 @@
     <string name="app_name">ConstraintLayoutCodelab</string>
     <string name="dummy">Dummy</string>
     <string name="singapore">Singapore</string>
+    <string name="upload">Upload</string>
+    <string name="discard">Discard</string>
 </resources>
